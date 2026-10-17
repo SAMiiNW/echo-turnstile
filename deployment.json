@@ -1,0 +1,11 @@
+{
+  "network": "StudioNet",
+  "account": "SAMiiNW",
+  "contractAddress": "0xd1DFbDA974616d7A4D4c8C9DFE8615d6d79ea677",
+  "deploymentTransaction": "0xdca4d82f9c06162de02f1128ced858574490b0db01a42a2c636f8b5ec6883690",
+  "deploymentConsensus": "MAJORITY_AGREE",
+  "deploymentExecution": "SUCCESS",
+  "sourceSha256": "e77ea9bcaaca18e3da6549e65d6cf575b903d7a04f5ef19fa593ccd8224c1ea8",
+  "sourceCommit": "7cefeb035cb3c3005c2723656f41a580109fdede",
+  "repository": "https://github.com/SAMiiNW/echo-turnstile"
+}

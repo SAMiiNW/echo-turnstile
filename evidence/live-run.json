@@ -1,0 +1,50 @@
+{
+  "laneId": "LANE-1792202938",
+  "transactions": {
+    "openLane": "0x6e25d6c7bdb70504ec89b9408fe78da16d7def23a3280492c458214bde061429",
+    "firstAdmission": "0x12166d50561c1406f22bf0c18dd3aa7fbe6448f574fd6c1dbd69dbd647f8b890",
+    "semanticRedirect": "0xf969a62f6d72443911531539e15438969a21e3fcb93dae963202fd865dab99c1",
+    "distinctAdmission": "0x6df4caca723429e89f95753692a09310ea13de38712219e5fa164ecb64c8aa42",
+    "duplicateIdRejected": "0x20be591d4a3d17159bca29b4a93242b8ad7bc0b6eecb1780a39fce73c9fc1a11"
+  },
+  "negativeExecution": "ERROR",
+  "laneUnchangedAfterRejectedDuplicate": true,
+  "tickets": {
+    "first": {
+      "created_at": 1792202979,
+      "duplicate_ids": [],
+      "id": "REQ-A-1792202938",
+      "label": "French settings localization",
+      "lane_id": "LANE-1792202938",
+      "payload_digest": "417acc1c0de6ea96fee3cb0a8b9c71d11de9527f8bb276420f85287a5eb8dbc0",
+      "payload_url": "https://cdn.jsdelivr.net/gh/SAMiiNW/echo-turnstile@main/fixtures/request-a.md",
+      "sender": "0xCAFA30BF94D4fb01146588a1b7901BD85E7DbD0f",
+      "state": "ADMITTED"
+    },
+    "redirected": {
+      "created_at": 1792203033,
+      "duplicate_ids": [
+        "REQ-A-1792202938"
+      ],
+      "id": "REQ-B-1792202938",
+      "label": "Localize settings into French",
+      "lane_id": "LANE-1792202938",
+      "payload_digest": "d959a3988dcced281e421405dc3710d6609118be20b5f2a63e5d04dcf0b00544",
+      "payload_url": "https://cdn.jsdelivr.net/gh/SAMiiNW/echo-turnstile@main/fixtures/request-b.md",
+      "sender": "0xCAFA30BF94D4fb01146588a1b7901BD85E7DbD0f",
+      "state": "REDIRECTED"
+    },
+    "distinct": {
+      "created_at": 1792203092,
+      "duplicate_ids": [],
+      "id": "REQ-C-1792202938",
+      "label": "CSV preview before export",
+      "lane_id": "LANE-1792202938",
+      "payload_digest": "145992698f6b5dcbd560e5a07f6c1e499c21899b56c3c92c83a4d26e2e372b34",
+      "payload_url": "https://cdn.jsdelivr.net/gh/SAMiiNW/echo-turnstile@main/fixtures/request-c.md",
+      "sender": "0xCAFA30BF94D4fb01146588a1b7901BD85E7DbD0f",
+      "state": "ADMITTED"
+    }
+  },
+  "fixtureDisclosure": "The three public request pages are operator-controlled fixtures used to demonstrate admission, semantic redirect, and distinct admission."
+}
